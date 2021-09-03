@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 Support Our Group 🔰', url="https://t.me/joinchat/UVJ4e_m-6is5NTQ1"
                                 )
                         ]
                     ]
@@ -50,7 +50,7 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = f"{file_name} \n @Cinemapyscho @GKmoviesdownload6",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
